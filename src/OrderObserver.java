@@ -1,3 +1,3 @@
 public interface OrderObserver {
-    public void update(Order order);
+    void update(Order order);
 }

@@ -14,8 +14,12 @@ public class Item {
         return name;
     }
 
-    public double getPrice() {
+    public double getUnitPrice() {
         return price;
+    }
+
+    public double getPrice() {
+        return price*quantity;
     }
 
     public int getQuantity() {
